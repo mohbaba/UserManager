@@ -38,4 +38,4 @@ jobs:
         run: docker build -t usermanagement:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push mohbaba12/usermanagement:latest .
+        run: docker push mohbaba12/usermanagement:latest
